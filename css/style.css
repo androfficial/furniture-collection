@@ -164,13 +164,6 @@ body._lock {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-@media (min-width: 767px) {
-  .page._sticky {
-    padding: 80px 0px 0px 0px;
-  }
 }
 @media (max-width: 767px) {
   .page {

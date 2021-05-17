@@ -6,10 +6,8 @@ function checkScroll() {
 
 	if (window.pageYOffset > 120) {
 		header.classList.add('_sticky');
-		page.classList.add('_sticky');
 	} else {
 		header.classList.remove('_sticky');
-		page.classList.remove('_sticky');
 	}
 }
 checkScroll();
