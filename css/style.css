@@ -741,6 +741,13 @@ body._lock {
     visibility: visible;
   }
 }
+@media (max-width: 991.98px) {
+  .collection__item::before,
+.collection__item .collection__item-body {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 .collection__photo {
   padding: 0px 0px 100% 0px;
 }
@@ -1982,6 +1989,12 @@ body._lock {
 }
 @media (min-width: 991.98px) {
   .slider-contact-us__link:hover .slider-contact-us__title {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@media (max-width: 991.98px) {
+  .slider-contact-us__link .slider-contact-us__title {
     opacity: 1;
     visibility: visible;
   }
