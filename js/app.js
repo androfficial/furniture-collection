@@ -1,3 +1,20 @@
+/*CheckScroll
+===============================================*/
+function checkScroll() {
+	const header = document.querySelector('.header');
+	const page   = document.querySelector('.page');
+
+	if (window.pageYOffset > 120) {
+		header.classList.add('_sticky');
+		page.classList.add('_sticky');
+	} else {
+		header.classList.remove('_sticky');
+		page.classList.remove('_sticky');
+	}
+}
+checkScroll();
+window.addEventListener('scroll', checkScroll)
+
 $(function() {
 
 	/*Wrapper
@@ -25,16 +42,8 @@ $(function() {
 	  $('body').toggleClass('_lock');
 	});
 
-	function checkScroll() {
-		if ($(window).scrollTop() > 120){
-			$('header').addClass("_sticky");
-		} else{
-			$('header').removeClass("_sticky");
-		}
-	}
-	checkScroll();
-	$(window).on('scroll', checkScroll)
-
+	/*MoveElement
+	===============================================*/
 	function moveDiv() {
  		if ($(window).width() < 651) {
     		$(".how-it-works__item--three").appendTo($(".how-it-works__items-box"));
