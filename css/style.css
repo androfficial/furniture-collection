@@ -372,6 +372,12 @@ body._lock {
 .menu__icon {
   display: none;
 }
+.menu__body {
+  background-color: #fff;
+  position: relative;
+  left: -10px;
+  width: calc(100% + 20px);
+}
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -493,13 +499,11 @@ body._lock {
 @media (max-width: 767px) {
   .header__menu {
     width: 100%;
-    background-color: #fff;
     position: relative;
     z-index: 101;
     text-align: center;
     -webkit-transform: translateY(-300%);
             transform: translateY(-300%);
-    overflow: auto;
     margin: -1px 0px 0px 0px;
     -webkit-transition: -webkit-transform 0.6s;
     transition: -webkit-transform 0.6s;
