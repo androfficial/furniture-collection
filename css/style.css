@@ -1125,8 +1125,6 @@ body._lock {
 }
 .gallery__item {
   padding: 0px 0px 125% 0px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 .gallery__item:first-child {
   -ms-grid-column-span: 2;
