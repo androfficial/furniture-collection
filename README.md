@@ -7,4 +7,4 @@
 
 ---
  
-### :heavy_check_mark: [Ссылка на сайт](https://androfficial.github.io/mySite)
+### :heavy_check_mark: [Link](https://androfficial.github.io/mySite)
