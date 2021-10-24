@@ -4,7 +4,7 @@
 * JavaScript
 * SCSS
 * BEM methodology
-* Responsive and cross-browser layout.
+* Responsive, adaptive and cross-browser layout
 
 ### Pages:
 | Path :arrow_down_small: | Description :information_source: |
